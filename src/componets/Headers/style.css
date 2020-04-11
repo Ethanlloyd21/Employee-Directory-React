@@ -1,0 +1,25 @@
+.column-headers {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #b8b8b8;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.sortable {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.image {
+    width: 10%;
+}
+
+.email {
+    width: 30%;
+}
+
+.info {
+    width: 20%;
+}
