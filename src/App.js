@@ -101,11 +101,11 @@ function App() {
   return (
 
     <div>
-
+      <Navbar />
       <Context.Provider
         value={{ search, dates, employees, findByName }}
       >
-        <Navbar />
+
         <Wrapper>
 
           <Directory
@@ -116,10 +116,11 @@ function App() {
             <Headers sortEmployees={sortEmployees} />
             <File />
           </Main>
+
         </Wrapper>
       </Context.Provider>
-
       <Footer />
+
 
     </div>
 

@@ -11,7 +11,7 @@ function Directory(props) {
         paddingLeft: '10px',
         borderRadius: '8px'
     };
-    const button = {
+    const buttonStyle = {
         borderRadius: '8px',
         marginLeft: '10px'
 
@@ -21,7 +21,7 @@ function Directory(props) {
         <div className="directory">
             <div className="dir">
                 <Dob
-                    style={button}
+                    style={buttonStyle}
                     whenClicked={props.filterEmployees}
                     args={[dates.startDate, dates.endDate]}
                     text={`DOB:`}
@@ -39,7 +39,7 @@ function Directory(props) {
                     field={`endDate`}
                 />
                 <Dob
-                    style={button}
+                    style={buttonStyle}
                     whenClicked={findByName}
                     args={[search]}
                     text={`Search:`}
