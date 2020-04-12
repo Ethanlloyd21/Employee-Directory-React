@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import './style.css';
-import Employee from '../Employee';
+import Context from '../Context';
 
 function File() {
-    const { employees } = useContext(Employee);
+    const { employees } = useContext(Context);
     return (
         <ul className="list-group">
             {employees.map((employee) => (

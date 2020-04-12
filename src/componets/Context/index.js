@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Employee = React.createContext({
+const Context = React.createContext({
     employees: [],
     dates: {},
     search: ``,
     findByName: () => { },
 });
 
-export default Employee;
+export default Context;

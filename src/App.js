@@ -4,10 +4,10 @@ import './App.css';
 import Footer from './componets/Footer';
 import Wrapper from './componets/Wrapper';
 import Directory from './componets/Directory';
-import Container from './componets/Container';
-import Topbar from './componets/Topbar';
+import Main from './componets/Main';
+import Navbar from './componets/Navbar';
 import File from './componets/File';
-import Employee from './componets/Employee';
+import Context from './componets/Context';
 import Headers from './componets/Headers';
 
 function App() {
@@ -102,22 +102,22 @@ function App() {
 
     <div>
 
-      <Employee.Provider
+      <Context.Provider
         value={{ search, dates, employees, findByName }}
       >
-        <Topbar />
+        <Navbar />
         <Wrapper>
 
           <Directory
             filterEmployees={filterEmployees}
             handleChange={handleChange}
           />
-          <Container>
+          <Main>
             <Headers sortEmployees={sortEmployees} />
             <File />
-          </Container>
+          </Main>
         </Wrapper>
-      </Employee.Provider>
+      </Context.Provider>
 
       <Footer />
 

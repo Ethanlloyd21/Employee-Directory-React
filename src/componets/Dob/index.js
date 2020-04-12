@@ -5,7 +5,7 @@ import './style.css';
 function Dob(props) {
     return (
         <button
-            className="searchDOB"
+            className="DOBsearch"
             onClick={() => props.whenClicked(...props.args)}
         >
             {props.text}

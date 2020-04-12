@@ -1,9 +1,9 @@
-#directory {
+.directory {
     background-color: #b8b8b8;
     padding: 20px;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     width: 100%;
 }
 
@@ -13,13 +13,4 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-}
-
-.dobSearch {
-    cursor: pointer;
-    font-weight: bolder;
-}
-
-.birthdate {
-    width: 20%;
 }

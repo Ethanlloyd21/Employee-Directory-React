@@ -2,18 +2,18 @@ import React, { useContext } from 'react';
 import './style.css';
 import Dates from '../Dates';
 import Dob from '../Dob';
-import Employee from '../Employee';
+import Context from '../Context';
 
 function Directory(props) {
-    const { search, dates, findByName } = useContext(Employee);
-    const inputStyle = {
+    const { search, dates, findByName } = useContext(Context);
+    const css = {
         width: '20%',
         backgroundColor: 'white',
         paddingLeft: '5px',
     };
 
     return (
-        <div id="directory">
+        <div className="directory">
             <div className="dir">
                 <Dob
                     whenClicked={props.filterEmployees}
@@ -21,19 +21,16 @@ function Directory(props) {
                     text={`DOB:`}
                 />
                 <Dates
-                    style={inputStyle}
+                    style={css}
                     value={dates.startDate}
                     onChange={props.handleChange}
                     field={`startDate`}
-
-
                 />
                 <Dates
-                    style={inputStyle}
+                    style={css}
                     value={dates.endDate}
                     onChange={props.handleChange}
                     field={`endDate`}
-
                 />
                 <Dob
                     whenClicked={findByName}
@@ -43,7 +40,7 @@ function Directory(props) {
                 <input
                     id="name"
                     type="text"
-                    style={inputStyle}
+                    style={css}
                     placeholder="Search"
                     value={search}
                     onChange={(event) => props.handleChange(event, `search`)}
