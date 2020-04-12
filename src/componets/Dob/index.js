@@ -6,6 +6,7 @@ function Dob(props) {
     return (
         <button
             className="DOBsearch"
+            style={props.style}
             onClick={() => props.whenClicked(...props.args)}
         >
             {props.text}

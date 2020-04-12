@@ -9,13 +9,20 @@ function Directory(props) {
     const css = {
         width: '20%',
         backgroundColor: 'white',
-        paddingLeft: '5px',
+        paddingLeft: '10px',
+        borderRadius: '8px'
     };
+    const button = {
+        borderRadius: '2px',
+        marginLeft: '10px'
+
+    }
 
     return (
         <div className="directory">
             <div className="dir">
                 <Dob
+                    style={button}
                     whenClicked={props.filterEmployees}
                     args={[dates.startDate, dates.endDate]}
                     text={`DOB:`}
@@ -33,6 +40,7 @@ function Directory(props) {
                     field={`endDate`}
                 />
                 <Dob
+                    style={button}
                     whenClicked={findByName}
                     args={[search]}
                     text={`Search:`}
