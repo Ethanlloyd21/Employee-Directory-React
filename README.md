@@ -1,4 +1,5 @@
 # Employee-Directory-React
+![](image/sample.PNG)
 
 ## Table of contents
 - [General Info](#Info)
