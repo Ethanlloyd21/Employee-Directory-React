@@ -12,7 +12,7 @@ function Directory(props) {
         borderRadius: '8px'
     };
     const button = {
-        borderRadius: '2px',
+        borderRadius: '8px',
         marginLeft: '10px'
 
     }
