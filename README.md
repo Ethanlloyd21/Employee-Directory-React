@@ -1,9 +1,10 @@
 # Employee-Directory-React
 ![](image/sample.PNG)
+- This application uses React to break up the UI into components, manage component state and respond to user events.
+- Go to Demo to view a sample or run the app.
 
 ## Table of contents
 - [General Info](#Info)
-- [Functionality](#Functionality)
 - [Install](#Install)
 - [Dependencies](#Dependencies)
 - [Technologies](#Technologies)
@@ -18,7 +19,6 @@
 #### Business Context
 - An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-# Functionality
 
 # Install
 ``` bash
@@ -95,7 +95,7 @@ You don’t have to ever use eject. The curated feature set is suitable for smal
 - randomuser.me = API to create fake random employee data
 
 # Demo
-
+Click here to view a <a href="https://drive.google.com/file/d/1DpNywVgTsv-FvtcfkMjL570nDFZcLCim/view"> --> video demo <-- </a>
 # Author
 - Lloyd Marcelino 
 - github: https://github.com/ethanlloyd21
