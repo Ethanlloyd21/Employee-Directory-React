@@ -8,7 +8,6 @@ function Directory(props) {
     const { search, dates, findByName } = useContext(Context);
     const css = {
         width: '20%',
-        backgroundColor: 'white',
         paddingLeft: '10px',
         borderRadius: '8px'
     };

@@ -1,7 +1,7 @@
 # Employee-Directory-React
 ![](image/sample.PNG)
 - This application uses React to break up the UI into components, manage component state and respond to user events.
-- Go to Demo to view a sample or run the app.
+- Go to Demo to view a sample video or test the app.
 
 ## Table of contents
 - [General Info](#Info)
