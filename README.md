@@ -12,4 +12,8 @@
 
 # General Info
 
+# Functionality
 
+# Install
+
+# Dependencies
