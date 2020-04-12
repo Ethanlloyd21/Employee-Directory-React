@@ -17,3 +17,16 @@
 # Install
 
 # Dependencies
+
+# Technologies
+
+# Demo
+
+# Author
+- Lloyd Marcelino 
+- github: https://github.com/ethanlloyd21
+- website: lloydmarcelino.com
+- email: lloydmarcelino@gmail.com
+
+# License
+- see MIT License Copyright (c) 2020
