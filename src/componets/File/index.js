@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './style.css';
+import './file.css';
 import Context from '../Context';
 
 function File() {

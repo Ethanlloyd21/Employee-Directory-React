@@ -7,18 +7,18 @@ function Headers(props) {
             <div className="image">
                 <p>Image</p>
             </div>
-            <div className="info">
+            <div className="data">
                 <p className="sortable" onClick={() => props.sortEmployees(`name`)}>
                     Name <i class="fa fa-angle-double-up"></i>
                 </p>
             </div>
-            <div className="info">
+            <div className="data">
                 <p>Phone</p>
             </div>
             <div className="email">
                 <p>Email</p>
             </div>
-            <div className="info">
+            <div className="data">
                 <p className="sortable" onClick={() => props.sortEmployees(`dob`)}>
                     DOB <i class="fa fa-angle-double-up"></i>
                 </p>
