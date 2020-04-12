@@ -16,6 +16,12 @@
 # Functionality
 
 # Install
+``` bash
+    npm i axios
+```
+``` bash
+    npx create-react-app employee-directory-react
+```
 
 # Dependencies
 ``` bash
